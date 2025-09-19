@@ -19,7 +19,7 @@
       }
 
       const functions = [
-        () => name('고지운'),
+        () => name('kojiun'),
         () => age(22),
         () => message()
       ];
@@ -30,7 +30,8 @@
         document.getElementById('output').innerHTML = functions[index]();
 
         index = (index + 1) % functions.length;
-      }, 3000);
+      }, 
+      3000);
     </script>
   </body>
 </html>
